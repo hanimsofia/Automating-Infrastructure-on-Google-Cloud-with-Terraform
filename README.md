@@ -21,7 +21,7 @@ In Cloud Shell, create your Terraform configuration files and a directory struct
         ├── storage.tf
         ├── outputs.tf
         └── variables.tf
-Fill out the variables.tf files in the root directory and within the modules. Add three variables to each file: region, zone, and project_id. For their default values, use , **<filled in at lab start>**, and your Google Cloud Project ID.Add the Terraform block and the Google Provider to the main.tf file. Verify the zone argument is added along with the project and region arguments in the Google Provider block.
+Fill out the variables.tf files in the root directory and within the modules. Add three variables to each file: region, zone, and project_id. For their default values, use , *filled in at lab start*, and your Google Cloud Project ID.Add the Terraform block and the Google Provider to the main.tf file. Verify the zone argument is added along with the project and region arguments in the Google Provider block.
 
 Initialize Terraform.
 
